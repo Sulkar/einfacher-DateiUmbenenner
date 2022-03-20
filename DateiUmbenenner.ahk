@@ -6,6 +6,7 @@ SetBatchLines -1
 
 #Include %A_ScriptDir%\lib\GuiButtonIcon.ahk
 
+Menu, Tray, Icon, %A_ScriptDir%\favicon.ico
 Gui Font, s9, Segoe UI
 Gui Add, Edit, vTextAreaLeft x30 y124 w300 h300 +Multi +HScroll  , ...
 Gui Add, Edit, vTextAreaRight x377 y123 w300 h300 +Multi +HScroll  , ...
